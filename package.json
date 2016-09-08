@@ -1,9 +1,19 @@
 {
-  "description": "removes RAW dupes",
+  "name": "rmraw",
+  "description": "Removes RAW files without a JPEG counterpart inside same folder.",
+  "version": "0.0.1",
+  "author": "moonwave99 <diego.caponera@gmail.com> [http://www.diegocaponera.com]",
   "license": "WTFPL",
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moonwave99/rmraw.git"
+  },
+  "main": "./lib/index.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "bin": {
+    "rmraw" : "./bin/index.js"
   },
   "dependencies": {
     "bluebird": "^3.4.6",

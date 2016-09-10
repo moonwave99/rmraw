@@ -10,7 +10,7 @@
   },
   "main": "./lib/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./bin/index.js"
   },
   "bin": {
     "rmraw" : "./bin/index.js"

@@ -1,7 +1,7 @@
 {
   "name": "rmraw",
   "description": "Removes RAW files without a JPEG counterpart inside same folder.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "moonwave99 <diego.caponera@gmail.com> [http://www.diegocaponera.com]",
   "license": "WTFPL",
   "repository": {
